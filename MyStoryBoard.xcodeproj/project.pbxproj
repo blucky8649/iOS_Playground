@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB25E08829D7E161007C883A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FB25E08729D7E161007C883A /* Alamofire */; };
+		FB25E08E29D7F570007C883A /* MyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E08D29D7F570007C883A /* MyApi.swift */; };
+		FB25E08F29D7F570007C883A /* MyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E08D29D7F570007C883A /* MyApi.swift */; };
+		FB25E09029D7F570007C883A /* MyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E08D29D7F570007C883A /* MyApi.swift */; };
+		FB25E09329D7F6FD007C883A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E09229D7F6FD007C883A /* Photo.swift */; };
+		FB25E09429D7F6FD007C883A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E09229D7F6FD007C883A /* Photo.swift */; };
+		FB25E09529D7F6FD007C883A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E09229D7F6FD007C883A /* Photo.swift */; };
 		FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD55C6E29D0621000A61FF6 /* CustomCell.swift */; };
 		FBD55C7229D06DD000A61FF6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FBD55C7129D06DD000A61FF6 /* Kingfisher */; };
 		FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */; };
@@ -38,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB25E08D29D7F570007C883A /* MyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApi.swift; sourceTree = "<group>"; };
+		FB25E09229D7F6FD007C883A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		FBD55C6E29D0621000A61FF6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		FBE9E9AF2998C2EF00D56209 /* MyStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD55C7229D06DD000A61FF6 /* Kingfisher in Frameworks */,
+				FB25E08829D7E161007C883A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +90,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB25E08A29D7F54D007C883A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FB25E09129D7F69D007C883A /* model */,
+				FB25E08B29D7F556007C883A /* source */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		FB25E08B29D7F556007C883A /* source */ = {
+			isa = PBXGroup;
+			children = (
+				FB25E08C29D7F560007C883A /* remote */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		FB25E08C29D7F560007C883A /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				FB25E08D29D7F570007C883A /* MyApi.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		FB25E09129D7F69D007C883A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FB25E09229D7F6FD007C883A /* Photo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		FBE9E9A62998C2EF00D56209 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +146,7 @@
 		FBE9E9B12998C2EF00D56209 /* MyStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				FB25E08A29D7F54D007C883A /* data */,
 				FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */,
 				FBE9E9B42998C2EF00D56209 /* SceneDelegate.swift */,
 				FBE9E9B62998C2EF00D56209 /* ViewController.swift */,
@@ -150,6 +194,7 @@
 			name = MyStoryBoard;
 			packageProductDependencies = (
 				FBD55C7129D06DD000A61FF6 /* Kingfisher */,
+				FB25E08729D7E161007C883A /* Alamofire */,
 			);
 			productName = MyStoryBoard;
 			productReference = FBE9E9AF2998C2EF00D56209 /* MyStoryBoard.app */;
@@ -225,6 +270,7 @@
 			mainGroup = FBE9E9A62998C2EF00D56209;
 			packageReferences = (
 				FBD55C7029D06DD000A61FF6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FB25E08629D7E161007C883A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = FBE9E9B02998C2EF00D56209 /* Products */;
 			projectDirPath = "";
@@ -269,6 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB25E09329D7F6FD007C883A /* Photo.swift in Sources */,
+				FB25E08E29D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9B72998C2EF00D56209 /* ViewController.swift in Sources */,
 				FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */,
 				FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */,
@@ -280,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB25E09429D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9CA2998C37600D56209 /* MyStoryBoardTests.swift in Sources */,
+				FB25E08F29D7F570007C883A /* MyApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB25E09529D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9D42998C37600D56209 /* MyStoryBoardUITests.swift in Sources */,
+				FB25E09029D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9D62998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +662,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FB25E08629D7E161007C883A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		FBD55C7029D06DD000A61FF6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -621,6 +681,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FB25E08729D7E161007C883A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB25E08629D7E161007C883A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		FBD55C7129D06DD000A61FF6 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FBD55C7029D06DD000A61FF6 /* XCRemoteSwiftPackageReference "Kingfisher" */;

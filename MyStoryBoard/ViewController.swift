@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        MyApi.shared.callService()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
         self.tableView.dataSource = self
