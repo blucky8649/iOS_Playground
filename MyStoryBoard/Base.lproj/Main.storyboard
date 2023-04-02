@@ -102,6 +102,11 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="TIp-6t-h9p">
+                                <rect key="frame" x="185" y="412" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -113,6 +118,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="centerProgressBar" destination="TIp-6t-h9p" id="zyw-DE-UGp"/>
                         <outlet property="tableView" destination="gto-Qh-b0M" id="M4z-Oo-UkB"/>
                     </connections>
                 </viewController>
