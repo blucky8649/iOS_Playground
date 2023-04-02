@@ -12,18 +12,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var centerProgressBar: UIActivityIndicatorView!
     private var photoList: [Photo] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         MyApi.shared.callService() { photoList in
-            print(photoList.map { photo in
-                photo.title ?? ""
-            })
             self.photoList = photoList
             
             DispatchQueue.main.async {
                 self.tableView.reloadData()
+                self.centerProgressBar.isHidden = true
             }
             
         }
