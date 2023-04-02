@@ -52,4 +52,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         return customCell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let cell = photoList[indexPath.row]
+        print("cell selected : \(indexPath.row)")
+        print("photo title : \(cell.title ?? "")")
+    }
 }
