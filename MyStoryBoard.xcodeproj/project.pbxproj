@@ -123,6 +123,13 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		FB25E09629D88118007C883A /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
 		FBE9E9A62998C2EF00D56209 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +153,7 @@
 		FBE9E9B12998C2EF00D56209 /* MyStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				FB25E09629D88118007C883A /* presentation */,
 				FB25E08A29D7F54D007C883A /* data */,
 				FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */,
 				FBE9E9B42998C2EF00D56209 /* SceneDelegate.swift */,
@@ -430,6 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
