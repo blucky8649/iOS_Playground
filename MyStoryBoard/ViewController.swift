@@ -52,4 +52,19 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         return customCell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let cell = photoList[indexPath.row]
+        print("cell selected : \(indexPath.row)")
+        print("photo title : \(cell.title ?? "")")
+        
+        guard let vcDetail = self.storyboard?
+            .instantiateViewController(withIdentifier: "DetailVC")
+                as? DetailViewController else {
+            return
+        }
+        vcDetail.imageUrl = cell.thumbnailUrl ?? ""
+        self.navigationController?.pushViewController(vcDetail, animated: true)
+    }
 }
