@@ -58,5 +58,13 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = photoList[indexPath.row]
         print("cell selected : \(indexPath.row)")
         print("photo title : \(cell.title ?? "")")
+        
+        guard let vcDetail = self.storyboard?
+            .instantiateViewController(withIdentifier: "DetailVC")
+                as? DetailViewController else {
+            return
+        }
+        vcDetail.imageUrl = cell.thumbnailUrl ?? ""
+        self.navigationController?.pushViewController(vcDetail, animated: true)
     }
 }

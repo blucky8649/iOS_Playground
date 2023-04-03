@@ -16,6 +16,9 @@
 		FB25E09529D7F6FD007C883A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25E09229D7F6FD007C883A /* Photo.swift */; };
 		FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD55C6E29D0621000A61FF6 /* CustomCell.swift */; };
 		FBD55C7229D06DD000A61FF6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FBD55C7129D06DD000A61FF6 /* Kingfisher */; };
+		FBE2316F29DAFA95000572EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2316E29DAFA95000572EF /* DetailViewController.swift */; };
+		FBE2317029DAFA95000572EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2316E29DAFA95000572EF /* DetailViewController.swift */; };
+		FBE2317129DAFA95000572EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2316E29DAFA95000572EF /* DetailViewController.swift */; };
 		FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */; };
 		FBE9E9B52998C2EF00D56209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9B42998C2EF00D56209 /* SceneDelegate.swift */; };
 		FBE9E9B72998C2EF00D56209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9B62998C2EF00D56209 /* ViewController.swift */; };
@@ -48,6 +51,7 @@
 		FB25E08D29D7F570007C883A /* MyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApi.swift; sourceTree = "<group>"; };
 		FB25E09229D7F6FD007C883A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		FBD55C6E29D0621000A61FF6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		FBE2316E29DAFA95000572EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FBE9E9AF2998C2EF00D56209 /* MyStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE9E9B22998C2EF00D56209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE9E9B42998C2EF00D56209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				FBE9E9B62998C2EF00D56209 /* ViewController.swift */,
 				FBD55C6E29D0621000A61FF6 /* CustomCell.swift */,
 				FBE9E9B82998C2EF00D56209 /* Main.storyboard */,
+				FBE2316E29DAFA95000572EF /* DetailViewController.swift */,
 				FBE9E9BB2998C37500D56209 /* Assets.xcassets */,
 				FBE9E9BD2998C37500D56209 /* LaunchScreen.storyboard */,
 				FBE9E9C02998C37500D56209 /* Info.plist */,
@@ -329,6 +334,7 @@
 				FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */,
 				FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */,
 				FBE9E9B52998C2EF00D56209 /* SceneDelegate.swift in Sources */,
+				FBE2316F29DAFA95000572EF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +345,7 @@
 				FB25E09429D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9CA2998C37600D56209 /* MyStoryBoardTests.swift in Sources */,
 				FB25E08F29D7F570007C883A /* MyApi.swift in Sources */,
+				FBE2317029DAFA95000572EF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +355,7 @@
 			files = (
 				FB25E09529D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9D42998C37600D56209 /* MyStoryBoardUITests.swift in Sources */,
+				FBE2317129DAFA95000572EF /* DetailViewController.swift in Sources */,
 				FB25E09029D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9D62998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift in Sources */,
 			);
