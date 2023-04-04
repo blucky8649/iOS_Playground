@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--메인화면-->
+        <!--TableView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
@@ -117,7 +117,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gto-Qh-b0M" secondAttribute="bottom" id="s1g-Pb-diO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="메인화면" id="Gct-QC-plB"/>
+                    <navigationItem key="navigationItem" title="TableView" id="Gct-QC-plB"/>
                     <connections>
                         <outlet property="centerProgressBar" destination="TIp-6t-h9p" id="zyw-DE-UGp"/>
                         <outlet property="tableView" destination="gto-Qh-b0M" id="M4z-Oo-UkB"/>
@@ -125,17 +125,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="298" y="156"/>
+            <point key="canvasLocation" x="732" y="542"/>
         </scene>
         <!--상세화면-->
         <scene sceneID="xgM-fa-0iY">
             <objects>
                 <viewController storyboardIdentifier="DetailVC" id="e9L-nE-zSn" customClass="DetailViewController" customModule="MyStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="wTh-IG-aK0">
+                    <view key="view" contentMode="scaleToFill" id="wTh-IG-aK0">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-TC-2nC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-TC-2nC">
                                 <rect key="frame" x="45" y="272" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="S8S-0h-y3v"/>
@@ -167,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGT-zc-LTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076.9230769230769" y="155.68720379146919"/>
+            <point key="canvasLocation" x="1440" y="542"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uu9-GS-SY0">
@@ -178,12 +178,39 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9qe-Xv-cgl"/>
+                        <segue destination="jLi-ui-zvu" kind="relationship" relationship="rootViewController" id="9hl-FJ-08X"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fdH-Zk-Upg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-520" y="156"/>
+            <point key="canvasLocation" x="-751" y="542"/>
+        </scene>
+        <!--메인 메뉴-->
+        <scene sceneID="HU5-HZ-Yhb">
+            <objects>
+                <viewController id="jLi-ui-zvu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pQx-NH-n9i">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YD-F8-QuN">
+                                <rect key="frame" x="137" y="141" width="117" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="UITableView"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cX5-yB-gFr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Civ-Q0-O4d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메인 메뉴" id="ODM-Iy-nrD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KQk-MY-B45" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="543"/>
         </scene>
     </scenes>
     <resources>
