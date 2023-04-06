@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--메인화면-->
+        <!--TableView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
@@ -82,7 +82,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gto-Qh-b0M" secondAttribute="bottom" id="s1g-Pb-diO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="메인화면" id="Gct-QC-plB"/>
+                    <navigationItem key="navigationItem" title="TableView" id="Gct-QC-plB"/>
                     <connections>
                         <outlet property="centerProgressBar" destination="TIp-6t-h9p" id="zyw-DE-UGp"/>
                         <outlet property="tableView" destination="gto-Qh-b0M" id="M4z-Oo-UkB"/>
