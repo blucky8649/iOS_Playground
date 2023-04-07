@@ -10,7 +10,7 @@ import UIKit
 class CollectionViewController: UIViewController {
 
     private var photoList: [Photo] = []
-    let columns: CGFloat = 3
+    let columns: CGFloat = 2
     let space: CGFloat = 1
     
     @IBOutlet weak var centerProgressBar: UIActivityIndicatorView!
