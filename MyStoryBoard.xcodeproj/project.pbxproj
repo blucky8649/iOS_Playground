@@ -31,6 +31,9 @@
 		FBE9E9CA2998C37600D56209 /* MyStoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9C92998C37600D56209 /* MyStoryBoardTests.swift */; };
 		FBE9E9D42998C37600D56209 /* MyStoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9D32998C37600D56209 /* MyStoryBoardUITests.swift */; };
 		FBE9E9D62998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9E9D52998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift */; };
+		FBEA258529E03883002865C1 /* CustomGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA258429E03883002865C1 /* CustomGridCell.swift */; };
+		FBEA258629E03883002865C1 /* CustomGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA258429E03883002865C1 /* CustomGridCell.swift */; };
+		FBEA258729E03883002865C1 /* CustomGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA258429E03883002865C1 /* CustomGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,7 @@
 		FBE9E9CF2998C37600D56209 /* MyStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE9E9D32998C37600D56209 /* MyStoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryBoardUITests.swift; sourceTree = "<group>"; };
 		FBE9E9D52998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBEA258429E03883002865C1 /* CustomGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				FB14BCDE29DF00A3004FE324 /* CollectionViewController.swift */,
+				FBEA258429E03883002865C1 /* CustomGridCell.swift */,
 			);
 			path = collectionview;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				FB25E08E29D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9B72998C2EF00D56209 /* ViewController.swift in Sources */,
 				FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */,
+				FBEA258529E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB14BCDF29DF00A3004FE324 /* CollectionViewController.swift in Sources */,
 				FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */,
 				FBE9E9B52998C2EF00D56209 /* SceneDelegate.swift in Sources */,
@@ -376,6 +382,7 @@
 				FBE9E9CA2998C37600D56209 /* MyStoryBoardTests.swift in Sources */,
 				FB25E08F29D7F570007C883A /* MyApi.swift in Sources */,
 				FBE2317029DAFA95000572EF /* DetailViewController.swift in Sources */,
+				FBEA258629E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB14BCE029DF00A3004FE324 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +395,7 @@
 				FB25E09529D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9D42998C37600D56209 /* MyStoryBoardUITests.swift in Sources */,
 				FBE2317129DAFA95000572EF /* DetailViewController.swift in Sources */,
+				FBEA258729E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB25E09029D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9D62998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift in Sources */,
 			);
