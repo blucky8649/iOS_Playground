@@ -10,7 +10,7 @@ import UIKit
 class CollectionViewController: UIViewController {
 
     private var photoList: [Photo] = []
-    let columns: CGFloat = 2
+    let columns: CGFloat = 3
     let space: CGFloat = 1
     
     @IBOutlet weak var centerProgressBar: UIActivityIndicatorView!
@@ -54,7 +54,7 @@ extension CollectionViewController: UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
             let width = (collectionView.frame.width / columns) - (space * (columns - 1))
             print("width = \(width)")
-            return CGSize(width: width, height: width + 50)
+            return CGSize(width: width, height: width + 70)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
