@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1B9C5829F17403005A14E5 /* MyWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B9C5729F17403005A14E5 /* MyWebViewViewController.swift */; };
+		0C1B9C5929F17403005A14E5 /* MyWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B9C5729F17403005A14E5 /* MyWebViewViewController.swift */; };
+		0C1B9C5A29F17403005A14E5 /* MyWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B9C5729F17403005A14E5 /* MyWebViewViewController.swift */; };
 		FB14BCDF29DF00A3004FE324 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB14BCDE29DF00A3004FE324 /* CollectionViewController.swift */; };
 		FB14BCE029DF00A3004FE324 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB14BCDE29DF00A3004FE324 /* CollectionViewController.swift */; };
 		FB14BCE129DF00A3004FE324 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB14BCDE29DF00A3004FE324 /* CollectionViewController.swift */; };
@@ -54,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1B9C5729F17403005A14E5 /* MyWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebViewViewController.swift; sourceTree = "<group>"; };
 		FB14BCDE29DF00A3004FE324 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		FB25E08D29D7F570007C883A /* MyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApi.swift; sourceTree = "<group>"; };
 		FB25E09229D7F6FD007C883A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -102,9 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5E646129E6DDC200E28A32 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B9C5729F17403005A14E5 /* MyWebViewViewController.swift */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
 		FB14BCDB29DF0013004FE324 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				0C5E646129E6DDC200E28A32 /* webview */,
 				FBE2316E29DAFA95000572EF /* DetailViewController.swift */,
 				FB14BCDD29DF004C004FE324 /* collectionview */,
 				FB14BCDC29DF0022004FE324 /* tableview */,
@@ -366,6 +379,7 @@
 				FB25E08E29D7F570007C883A /* MyApi.swift in Sources */,
 				FBE9E9B72998C2EF00D56209 /* ViewController.swift in Sources */,
 				FBE9E9B32998C2EF00D56209 /* AppDelegate.swift in Sources */,
+				0C1B9C5829F17403005A14E5 /* MyWebViewViewController.swift in Sources */,
 				FBEA258529E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB14BCDF29DF00A3004FE324 /* CollectionViewController.swift in Sources */,
 				FBD55C6F29D0621000A61FF6 /* CustomCell.swift in Sources */,
@@ -381,6 +395,7 @@
 				FB25E09429D7F6FD007C883A /* Photo.swift in Sources */,
 				FBE9E9CA2998C37600D56209 /* MyStoryBoardTests.swift in Sources */,
 				FB25E08F29D7F570007C883A /* MyApi.swift in Sources */,
+				0C1B9C5929F17403005A14E5 /* MyWebViewViewController.swift in Sources */,
 				FBE2317029DAFA95000572EF /* DetailViewController.swift in Sources */,
 				FBEA258629E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB14BCE029DF00A3004FE324 /* CollectionViewController.swift in Sources */,
@@ -397,6 +412,7 @@
 				FBE2317129DAFA95000572EF /* DetailViewController.swift in Sources */,
 				FBEA258729E03883002865C1 /* CustomGridCell.swift in Sources */,
 				FB25E09029D7F570007C883A /* MyApi.swift in Sources */,
+				0C1B9C5A29F17403005A14E5 /* MyWebViewViewController.swift in Sources */,
 				FBE9E9D62998C37600D56209 /* MyStoryBoardUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
